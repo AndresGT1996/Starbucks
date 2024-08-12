@@ -38,6 +38,12 @@ header {
 font-size: 18px;
 }
 
+main {
+    margin: auto;
+    width: 80%;
+
+}
+
 a {
     color: black;
 
@@ -151,8 +157,11 @@ padding: 0px 35px 0px 35px;
 
  .quintBloque {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-content: space-between;
+
  }
 
 .img-izq {
@@ -210,7 +219,6 @@ padding: 0px 35px 0px 35px;
     width: 100%;
     border-top: solid 3px rgb(231, 231, 231);
    
-
 }
 
 .footer1 h2 {  font-weight: normal;
@@ -221,16 +229,20 @@ padding: 0px 35px 0px 35px;
 
 .footer1-information {display: flex;
     padding: 35px 0px 65px 0px;
+    width: 60%;
+    margin-left: 200px;
 }
 
 .footer1-information-SobreNosotros { 
     padding: 0px 95px 0px 75px;
+
 }
 
 
 .footer1 img { width: 250px;
 
 padding: 35px 70px 0px 0px;
+margin-right: 200px;
 }
 
 .footer2 { 
@@ -238,10 +250,31 @@ padding: 35px 70px 0px 0px;
     color: grey;
     display: flex;
     justify-content: center;
-
+    text-align: center;
 }
 
 .footer2 a { color: grey}
+
+.footer2-contenido{
+
+    margin: 20px;
+    
+}
+
+.img1 {
+
+    margin: 10px;
+
+}
+
+.img2 {
+    margin: 10px;
+}
+
+.img3 {
+    margin: 10px;
+    
+}
 
 .footer2-contenido-Terminos { 
     display: flex;
@@ -251,4 +284,12 @@ padding: 35px 70px 0px 0px;
     padding-bottom: 20px;
 }
 
-.footer2-contenido-terminos2 { ds}
+.footer2-contenido-terminos2 { 
+
+    font-size: .875rem;
+    
+}
+
+span {
+    font-size: .625rem;
+}
